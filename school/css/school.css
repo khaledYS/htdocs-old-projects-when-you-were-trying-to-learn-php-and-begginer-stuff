@@ -1,0 +1,246 @@
+@import url(../fonts/Rakkas/Rakkas-Regular.ttf);
+@import url(../fonts/Vibes/Vibes-Regular.ttf);
+@font-face {
+	font-family: myfont1;
+	src: url('../fonts/Vibes/Vibes-Regular.ttf');
+}
+@font-face {
+	font-family: myFont;
+	src: url(../fonts/Rakkas/Rakkas-Regular.ttf);
+}
+
+@media all and (max-width: 1067px) and (min-width: 200px){
+	*{
+	background-color: aqua;
+}
+
+#pp{
+	background-color: brown;
+	padding: 20px 0px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	animation-duration:2s;
+	animation-name: x;
+	padding:auto;
+	width: 100%;
+	text-align: center;
+	font-family: myFont;
+	font-size: auto;
+	color:aqua; 
+ 	font-weight: 100;
+	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset ,rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+@keyframes x{
+	0%{
+		width: 15%;
+		opacity: 0.1;
+		border-bottom-right-radius: 50px;
+		border-top-right-radius: 50px;
+		text-align: left;
+	}
+	50%{
+		width: 100%;
+		opacity: 1;
+		border-bottom-right-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+	
+	100%{
+		border-bottom-left-radius: 20px;
+		border-top-right-radius: 20px;
+		text-align: center;
+	}
+}
+
+#pp:hover{
+	opacity: 0.8;
+	cursor: all-scroll;
+}
+
+div.right{
+	margin-bottom:50px;
+	margin-top: 150px;
+	margin-left: 50px;
+	margin-right:50px;
+	width: 100%;
+	box-shadow:rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px,rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+	box-sizing:border-box;
+	padding: 200px 200px;
+	border-bottom-left-radius: 200px;
+	border-top-right-radius:200px ;
+	border-bottom-right-radius: 200px ;
+	border-top-left-radius:50px ;
+	position: static;
+	animation-duration: 2s;
+	animation-name: r;
+	
+}
+
+	@keyframes r{
+		from{opacity: 0.1; position: absolute; right: -500px;}
+		to{opacity: 1; position: absolute; right: 50px;}
+	}
+
+div.right:hover{
+	box-shadow:rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px,rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset,rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+	img{
+		width: 200px;
+		object-fit: cover;
+	}
+	
+	
+div.left{
+	margin-bottom:50px;
+	margin-top: 150px;
+	margin-left: 100px;
+	margin-right:100px;
+	background-color: orange;
+	box-sizing:border-box;
+	padding: 200px 200px;
+	border-bottom-left-radius: 200px;
+	border-top-right-radius:200px ;
+	border-bottom-right-radius: 50px ;
+	border-top-left-radius:50px ;
+	position: static;
+	box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px,rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset,rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+	animation-name: l;
+	animation-duration: 2s;
+}
+	
+	@keyframes l{
+		from{opacity: 0.1; position: absolute; bottom: -500px;}
+		to{opacity: 1; position: absolute; bottom: 50px;}
+	}
+	
+div.left:hover{
+	box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px,rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset,rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px,rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset,rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+}
+
+@media all and (min-width:1070px) {
+	
+
+
+*{
+	background-color: aqua;
+}
+
+#pp{
+	background-color: brown;
+	padding: 20px 0px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	animation-duration:2s;
+	animation-name: x;
+	padding:auto;
+	width: 100%;
+	text-align: center;
+	font-family: myFont;
+	font-size: auto;
+	color:aqua; 
+ 	font-weight: 100;
+	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset ,rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+@keyframes x{
+	0%{
+		width: 15%;
+		opacity: 0.1;
+		border-bottom-right-radius: 50px;
+		border-top-right-radius: 50px;
+		text-align: left;
+	}
+	50%{
+		width: 100%;
+		opacity: 1;
+		border-bottom-right-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+	
+	100%{
+		border-bottom-left-radius: 20px;
+		border-top-right-radius: 20px;
+		text-align: center;
+	}
+}
+	
+
+#pp:hover{
+	opacity: 0.5;
+	cursor: all-scroll;
+}
+
+div.right{
+	background-color: aqua;
+	float: right;
+	margin-left:20px;
+	margin-right:50px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	box-shadow:rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px,rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+	background-attachment: scroll;
+	box-sizing:border-box;
+	padding: 200px 200px;
+	border-bottom-left-radius: 200px;
+	border-top-right-radius:200px ;
+	border-bottom-right-radius: 200px ;
+	border-top-left-radius:50px ;
+	position: static;
+	animation-name: ra;
+	animation-duration: 2s;
+	background-image: url(../img/WhatsApp%20Image%202020-10-23%20at%205.34.37%20PM.jpeg);
+	background-size: contain;
+	background-size: 500px;
+	overflow: scroll;
+}
+	
+	@keyframes ra{
+		from{opacity: 0.1; position: absolute; right: -500px;}
+		to{opacity: 1; position: absolute; right: 50px;}
+	}
+
+div.right:hover{
+	box-shadow:rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px,rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset,rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+	
+
+
+div.left{
+	margin-left:50px;
+	margin-right: 20px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	float: left;
+	background-color: orange;
+	margin: left;
+	box-sizing:border-box;
+	padding: 200px 200px;
+	border-bottom-left-radius: 200px;
+	border-top-right-radius:200px ;
+	border-bottom-right-radius: 50px ;
+	border-top-left-radius:50px ;
+	position: static;
+	box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px,rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset,rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+		animation-name: la;
+	animation-duration: 2s;
+	width: 100%;
+}
+	
+	@keyframes la{
+		from{opacity: 0.1; position: absolute; left: -500px;}
+		to{opacity: 1; position: absolute; left: 50px;}
+	}
+	
+
+div.left:hover{
+	box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px,rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset,rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px,rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset,rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+}

@@ -1,0 +1,97 @@
+/*@import url("http://www.fontstatic.com/f=jooza");*/*/
+@font-face {
+	font-family: jooza;
+	src: url(http://www.fontstatic.com/f=jooza);
+}
+body{
+	background-color: bisque;
+	scroll-behavior: smooth;
+	-webkit-scroll-behavior: smooth;
+}
+
+.img-carousel{
+	border-radius: 0px;
+}
+#carouselExampleCaptions {
+	border-radius: 20px;
+}
+.carousel-item {
+	border-radius: 50px;
+}
+.pp{
+	color:rgb(52,32,58)	 ;
+	border-radius: 20px;
+	padding: 5px;
+	font-weight:lighter;
+	font-family: jooza;
+	font-weight: 900;
+}.pp:hover{
+	cursor:default;
+}
+
+
+#cars {
+	background-color:darkslategrey;
+}
+
+#aymovies {
+	color:firebrick;
+	font-weight: bold;
+}
+
+.btn-info, .btn-warning {
+	margin: 10px;
+	  box-shadow: inset 0px 0px   2px #aaaaaa;
+	font-family: jooza;
+
+}.btn-info:hover, .btn-warning:hover, .btn:hover{
+	  box-shadow: inset 0px 100px   2px #aaaaaa;
+
+}
+
+#upper-content {
+	display: block;
+}
+
+#upper-content.hideuppercontent{
+	display: none;
+}
+.imgHello {
+	margin: 30px;
+	/*border: 10px groove rgb(303,303,00);*/
+	/*border: 10px groove rgb(303,303,03230);*/
+	border: 10px groove rgb(303,03,03230);
+	border-radius: 70px 70px 70px 70px;
+	animation-name: x;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}@keyframes x {
+	10%{border: 10px groove rgb(303,03,03230);}
+	20%{border: 20px double rgb(303,303,00);}
+	30%{border: 30px solid rgb(303,303,03230);}
+	40%{border: 40px groove rgb(303,303,00);}
+	50%{border: 50px double rgb(303,303,03230);}
+	60%{border: 60px solid rgb(303,303,00);}
+	70%{border: 20px double rgb(303,303,03230);}
+	80%{border: 30px solid rgb(303,303,00);}
+	90%{border: 40px groove rgb(303,303,03230);}
+	1000%{border: 50px double rgb(303,303,00);}
+
+}
+#moviediv{
+	background-color: 	rgba(48, 29, 29,0.8);
+	min-height: 800px;
+	border-radius: 0px 0px 0px 0px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	margin-bottom: 0px;
+}
+#navbar-img{
+	border-radius: 5px;
+} 
+.showd{
+	padding-top: 58.4px;
+	box-shadow: inset 10px -10px 0 0 gray;
+	margin: 100px;
+}
+.navbar{
+}

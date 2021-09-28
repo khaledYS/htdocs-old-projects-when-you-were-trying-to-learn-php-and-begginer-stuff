@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap');
+
+
+/*for bigger then 600px*/
+@media all and (min-width: 601px){
+body{
+	background-color: rgb(33,33,33);
+	overflow-x: hidden;
+}
+.th, .td{
+	border-bottom: 02px solid rgb(0,0,0);
+	font-family: 'Tajawal', sans-serif;
+}
+.th{
+	border-left: 0px solid rgb(0,0,0);
+}
+.td{
+	border-right: 3px solid rgb(0,0,0);
+}
+.table{
+	text-align: center;
+	direction: rtl;
+}
+.theinfo{
+	display: flex;
+	padding: 10px;
+	margin-top: 30px;
+	border: 10px solid coral;
+	border-radius: 10px;
+	background-color: rgb(99,99,99);
+	box-shadow: 05px 05px 20px white;
+}
+.img{
+	float: right;
+	width: 50vh;
+	display:block;
+}	
+#name{
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}
+.thestory{
+	padding: 20px;
+	margin-top: 50px;
+	border: 10px solid coral;
+	border-radius: 10px;
+	background-color: rgb(99,99,99);
+	box-shadow: 05px 05px 20px white;
+	direction: rtl;
+	color: white;
+}
+.wad{
+padding: 20px;
+margin-top: 50px;
+border: 10px solid coral;
+border-radius: 10px;
+background-color: rgb(99,99,99);
+box-shadow: 05px 05px 20px white;
+color: white;
+text-align: center;
+margin-bottom: 60px;
+}
+.video{
+	width: 100%;
+}
+.videocapt{
+	text-align: center;	
+	margin: 10px;
+}
+.trailer{
+padding: 20px;
+margin-top: 50px;
+border: 10px solid coral;
+border-radius: 10px;
+background-color: rgb(99,99,99);
+box-shadow: 05px 05px 20px white;
+color: white;
+}
+	.trailercapt{
+		display: inline-flex;
+	}
+	.trailercaptar{
+		direction: rtl;
+		text-align: center;
+		margin-left: auto;
+	}
+	.trailercapten{
+		direction: ltr;
+		margin: 0px;
+	}
+ 	.actorpresent{
+		display: inline-flex;
+	}
+	.actorpresentar{
+		direction: rtl;
+		text-align: center;
+		margin-left: auto;
+	}
+	.actorpresenten{
+		direction: ltr;
+		margin: 0px;
+	}
+	.Actors{
+		padding: 20px;
+		margin-top: 50px;
+		border: 10px solid coral;
+		border-radius: 10px;
+		background-color: rgb(99,99,99);
+		box-shadow: 05px 05px 20px white;
+		color: white;
+	}
+	.actorsdiv{
+		display: flex;
+		overflow-x:scroll; 
+		
+	}
+	.actorimg{
+		border-radius: 50%;
+		width: 120px;
+		height: 120px;
+	}
+	.Actordiv{
+		text-align: center;
+		display: flex;
+		margin: 30px;
+		justify-content: space-between;
+	}
+	.actorcapt{
+		margin:10px;
+	}
+	.actorname{
+		text-shadow: 2px 2px 0px green;
+		margin: 0px;
+	}
+	.actorjob{
+		font-size: 1rem;
+		color: rgba(255,255,255,0.5);
+	}
+	.iframe{
+		padding: 10px;
+		border: 10px solid coral;
+		border-radius: 10px;
+		background-color: rgb(99,99,99);
+		box-shadow: 05px 05px 20px white;
+		color: white;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-top:30px;
+	}
+	.theiframe{
+		height: 33rem;
+	}
+	.namefmovie{
+		/*------- name of the movie in the table*/
+	}
+	#moviename, #theyear{
+		margin: 0px;
+	}
+}	
+
+
+/*for smaller than 600px*/
+@media all and (max-width: 600px){
+body{
+	background-color: rgb(33,33,3);
+}
+.th, .td{
+	border-bottom: 02px solid rgb(0,0,0);
+	font-family: 'Tajawal', sans-serif;
+}
+.th{
+	border-left: 0px solid rgb(0,0,0);
+}
+.td{
+	border-right: 3px solid rgb(0,0,0);
+}
+.table{
+	text-align: center;
+	direction: rtl;
+	margin-bottom: 0px;
+}
+.theinfo{
+	padding: 10px;
+	padding-bottom: 0px;
+	margin-top: 30px;
+	border: 10px solid coral;
+	border-radius: 10px;
+	background-color: rgb(99,99,99);
+	box-shadow: 05px 05px 20px white;
+}
+.img{
+	width: 20rem;
+	margin:0 auto;
+	display: block;
+	margin-bottom: 0px;
+}	
+#name{
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}
+.thestory{
+	padding: 20px;
+	margin-top: 50px;
+	border: 10px solid coral;
+	border-radius: 10px;
+	background-color: rgb(99,99,99);
+	box-shadow: 05px 05px 20px white;
+	direction: rtl;
+	color: white;
+}
+	.wad{
+padding: 20px;
+margin-top: 50px;
+border: 10px solid coral;
+border-radius: 10px;
+background-color: rgb(99,99,99);
+box-shadow: 05px 05px 20px white;
+color: white;
+text-align: center;
+}
+.video{
+	width: 100%;
+}
+.videocapt{
+	text-align: center;	
+	margin: 10px;
+}
+	.trailer{
+padding: 20px;
+margin-top: 50px;
+border: 10px solid coral;
+border-radius: 10px;
+background-color: rgb(99,99,99);
+box-shadow: 05px 05px 20px white;
+color: white;
+}
+	.trailercapt{
+		display: inline-flex;
+	}
+	.trailercaptar{
+		direction: rtl;
+		text-align: center;
+		margin-left: auto;
+	}
+	.trailercapten{
+		direction: ltr;
+		margin: 0px;
+	}
+	.actorpresent{
+		display: inline-flex;
+	}
+	.actorpresentar{
+		direction: rtl;
+		margin-left: auto;
+		border-left: 5px solid rgb(00,00,00);
+	}
+	.actorpresenten{
+		direction: ltr;
+		margin: 0px;
+	}
+	.Actors{
+		padding: 20px;
+		margin-top: 50px;
+		border: 10px solid coral;
+		border-radius: 10px;
+		background-color: rgb(99,99,99);
+		box-shadow: 05px 05px 20px white;
+		color: white;
+	}
+	.actorsdiv{
+		display: flex;
+		overflow-x:scroll; 
+		
+	}
+	.actorimg{
+		border-radius: 50%;
+		width: 120px;
+		width: 120px;
+	}
+	.Actordiv{
+		text-align: center;
+		display: flex;
+		margin: 30px;
+		justify-content: space-between;
+	}
+	.actorcapt{
+		margin:10px;
+	}
+	.actorname{
+		text-shadow: 2px 2px 0px green;
+		margin: 0px;
+	}
+	.actorjob{
+		font-size: 1rem;
+		color: rgba(255,255,255,0.5);
+	}
+		.iframe{
+		padding: 10px;
+		border: 10px solid coral;
+		border-radius: 10px;
+		background-color: rgb(99,99,99);
+		box-shadow: 05px 05px 20px white;
+		color: white;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-top:30px;
+	}
+	.theiframe{
+		height: 33rem;
+	}
+		.namefmovie{
+		/*------- name of the movie in the table*/
+	}
+	#moviename, #theyear{
+		margin: 0px;
+	}
+}

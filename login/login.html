@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" >
+		<link rel="icon" type="image/png" href="img/Untled.png">
+		<title>تجيل دخول لقروب التيمز</title>
+	</head>
+	<body>
+		<div class="loginCon" >
+			<div class="up-head" >
+				<img src="https://image.flaticon.com/icons/png/512/906/906349.png" id="img" >
+				<h1 id="h1" ><span id="login-h1-1" >تسجيل دخول</span> <br><span id="login-h1-2" > قروب تيمز</span></h1>
+			</div>
+			<form action="php/login.php" method="post" >
+				<div class="div-for-email-input" >
+					<label class="label-for-email-input" for="email-input-for" >Account</label><br>
+					<input type="text" placeholder="الحساب" name="email-input-for" class="email-input" >
+				</div>
+				<!--<div class="div-for-pass-input" >
+					<label class="label-for-pass-input" for="" >Password</label><br>
+					<input type="password" placeholder="كلمة السر" name="pass-input-for" class="pass-input" >
+				</div>-->
+				<div class="div-for-submit-input" >
+					<input class="button1" type="submit" value="إرسال" >
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

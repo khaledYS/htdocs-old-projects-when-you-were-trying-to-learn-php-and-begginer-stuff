@@ -1,0 +1,21 @@
+#loadingimg{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 50px;
+  	width: 30%;
+	border-radius: 90px;
+	border:10px groove yellow;
+	animation-name: x;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	background-color: black;
+	box-shadow: 100px 100px 100px paleturquoise , -100px -100px 100px paleturquoise;
+}@keyframes x{
+	from{box-shadow: -10px -100px 100px paleturquoise , 100px 100px 100px paleturquoise;}
+	to{	box-shadow: 100px 10px 100px paleturquoise , -100px -10px 100px paleturquoise;}
+}
+#loadingtext{
+	text-align: center;
+	margin: 30px;
+}

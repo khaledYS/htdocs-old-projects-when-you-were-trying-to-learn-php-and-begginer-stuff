@@ -1,0 +1,22 @@
+body{
+	background-color: brown;
+	padding: 0px;
+	margin: 0px;
+}
+.up{
+	text-align: center;
+	margin-top: 0px;
+	box-shadow: 1px 0px 1px green, -1px -0px 1px green, -0px -1px 1px green, 0px 1px 1px green;
+	background-color: darkslategrey;
+	padding: 5px;
+	color:lightgoldenrodyellow;
+}
+.wad{
+	border-top: 10px solid darkslategrey;
+	border-bottom: 10px solid darkslategrey;
+	border-right: 10px solid darkslategrey;
+	border-left: 10px solid darkslategrey;
+	border-radius: 0px;
+	background-color: rgb(99,99,99);
+	box-shadow: 1px 0px 1px green, -1px -0px 1px green, 0px 1px 1px green;
+}

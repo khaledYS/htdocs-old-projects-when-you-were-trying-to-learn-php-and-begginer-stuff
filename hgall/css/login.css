@@ -1,0 +1,199 @@
+@import url(../fonts/Rakkas/Rakkas-Regular.ttf);
+@import url(../fonts/Vibes/Vibes-Regular.ttf);
+@font-face {
+	font-family: myfont1;
+	src: url('../fonts/Vibes/Vibes-Regular.ttf');
+}
+@font-face {
+	font-family: myFont;
+	src: url('../fonts/Rakkas/Rakkas-Regular.ttf');
+}
+
+
+body{
+	background-image: url(https://miro.medium.com/max/10588/0*jC9CeBA8pCRpeEwM);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.loginCon{
+	background-color: whitesmoke;
+	padding-top: 30px;
+	padding-left:40px;
+	padding-right: 40px;
+	border-radius: 100px;
+	border: 30px double black;
+	text-align: center;
+	content: "";
+  	clear: both;
+  	display: table;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#img{
+	width: 250px;
+	position:static;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 20px; 
+	border-radius: 1000px;
+	border-style: groove;
+}
+div.up-head{
+	background-color:"";
+	margin: center;
+	margin-bottom: 0px;
+	
+}
+
+#login-h1-1{
+	font-family: myfont;
+	color:darkblue ;
+}
+#login-h1-2{
+	font-family: myfont1;
+	font-weight: 600px;
+	color: ;
+	font-size: 40px;
+	margin-top: 0px;
+}
+
+
+
+h1{
+	border: 10px ;
+	padding: 10px;
+}
+
+.div-for-email-input{
+	
+	margin-top: 0px;
+	margin-bottom: 0PX;
+}
+
+.label-for-email-input{
+	font-family: myfont1;
+	color: darkslategrey;
+	font-weight: 1000;
+	font-size: 50px;
+}
+
+.email-input{
+	background-color:gainsboro;
+	border-radius: 10px 10px 0px 0px ;
+	border: 10px solid ;
+	border-style: groove;
+	width: 60%;
+	height: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.email-input:focus{
+	border: 10px solid ;
+	border-style: groove;
+	border-bottom: 10px solid gray;
+	border-width: 10%;
+	animation-duration: 1s;
+	animation-name: x;
+	width: 200px;
+	background-color:darkgray;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+
+
+
+@keyframes x{
+	10%{width: 60%;background-color: gainsboro;}
+	100%{width: 200px; background-color: darkgray}
+}
+
+
+.label-for-pass-input{
+	font-family: myfont1;
+	color: darkslategrey;
+	font-weight: 1000;
+	font-size: 50px;
+}
+
+.pass-input{
+	background-color:gainsboro;
+	border-radius: 10px 10px 0px 0px ;
+	border: 10px solid ;
+	border-style: groove;
+	width: 60%;
+	height: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.pass-input:focus{
+	border: 10px groove ;
+	border-bottom: 10px solid gray;
+	border-width: 10%;
+	animation-duration: 0.5s;
+	animation-name: l;
+	width: 200px;
+	background-color: darkgray;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+@keyframes l{
+	from{width:60%;background-color: gainsboro;
+		
+	}
+	to{width: 200px; background-color: darkgray;
+		
+	}
+}
+
+
+
+
+
+.div-for-pass-input{
+	margin-top: 0px;
+}
+
+.div-for-submit-input{
+	margin-top: 10px
+}
+
+
+.button1 {
+	background-color: white; 
+	color: black; 
+	border: 5px solid #645347;
+	border-radius: 10px;
+	width: 100px;
+	height: 50px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	margin-bottom: 10px
+}
+
+.button1:hover {
+  	color: white;
+	background-color: #4360d0;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.button1:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+

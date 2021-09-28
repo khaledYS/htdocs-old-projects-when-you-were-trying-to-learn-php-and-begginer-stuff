@@ -1,0 +1,84 @@
+body{
+	padding: 0;
+	background-image: url(https://i.pinimg.com/564x/01/81/fa/0181fa308f77061fbe47a2a6f897fd3f.jpg);
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0, 0, 0,)
+}
+/*.taskdiv{
+	height:5vh;
+	width: 100%;
+}
+.alert{
+	margin-top: 0px;
+	margin-bottom: 0;
+}*/
+#tasks{
+	margin-top: 10px;
+}
+.thecon{
+	display: flex;
+	padding: 20px 0px 20px 20px;
+	direction: rtl;
+	border-radius: 5px;
+	box-shadow: -1px -0px 5px grey, 1px 0px 5px grey;
+	opacity: 1;
+	margin: 5px 0;
+}
+.del{
+	margin-left: 10px;
+	display: inline;
+	overflow: hidden;
+	z-index: 1;
+}
+.del:hover{
+	margin-right: 10px;
+	animation-duration: 0.5s;
+	animation-name: x;
+}@keyframes x {
+	0%{margin-right: 0px;}
+	100%{margin-right: 10px}
+}
+.del:focus-within{
+	margin-right: 0px;
+	animation-duration: 0.5s;
+	animation-name: y;
+}@keyframes y {
+	0%{margin-right: 10px;}
+	100%{margin-right: 0px}
+}
+.subj{
+	border-right: 4px solid grey ;
+	margin: auto 0;
+	margin-right: 10px;
+	color: rgba(61, 24, 24, 1)
+}
+.date{
+	direction: ltr;
+	color: white;
+	text-align: center;
+	margin-right: auto;
+	border-radius: 20px;
+	margin-top: auto;
+}
+.table{
+	direction: rtl;
+	text-align: center;
+	background-color: black;margin-bottom: 0;
+}
+input{
+	border:0;
+	border-radius: 0;
+	color: white;
+	width: 100%;
+	background-color: #0a111c;
+	height: 50px;
+}
+input:focus{
+	border: 0;
+	margin: 0;
+}
+.add{
+	width: 100%;
+}

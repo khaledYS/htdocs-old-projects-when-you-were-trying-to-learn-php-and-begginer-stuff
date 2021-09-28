@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+body{
+	background-color: rgb(33,33,33);
+}
+.moviessec{
+	min-height: 90vh;
+	background-color: rgb(33,33,33);
+	border-top: 30px solid darkslategray;
+}
+.moviecard{
+	background-color:rgb(0,0,0,0);
+	height: 18rem;
+	width: 10rem;
+	display:inline-block;
+	margin: 30px 20px 0px 20px;
+	border-radius: 20px;
+	padding: 0px;
+	text-align: center;
+}
+.movieimg{
+	height: 14rem;
+	width: 10rem;
+	box-shadow:0px 0px 2px currentcolor;
+	color: white;
+}
+a.link{
+	text-decoration: none;
+	scroll-snap-type: x mandatory;
+}
+.animation{
+	width: 100%;
+	overflow-x:scroll;
+	overflow-y: hidden;
+	display: flex;
+	height: 22rem
+}
+.seccap{
+	display: block;
+	text-align: center;
+	color: darkolivegreen;
+	margin: 0px;
+	font-family:cursive;
+	margin-bottom: 0px;
+}
+.animation::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0px 0px 15px black  ;
+	background-color: rgb(33,33,33);
+	border-radius: 0px;
+}
+
+.animation::-webkit-scrollbar
+{
+	width: 20px;
+	background-color: rgb(33,33,33);
+}
+
+.animation::-webkit-scrollbar-thumb
+{
+	border-radius: 0px;
+	background-color: rgb(334,446,67);
+	box-shadow: inset 0px 0px 10px grey;
+}
+.movienamear{
+	font-size: 20px;
+	margin: 15px 0px 10px 0px;
+	font-family: 'Tajawal', sans-serif;
+	color: white;
+	text-shadow: 0px 0px 10px black ;
+}
+.movienameen{
+	font-size: 20px;
+	margin: 15px 0px 10px 0px;
+	font-family: 'Tajawal', sans-serif;
+	color: white;
+	text-shadow: 0px 0px 10px black;
+	font-family: 'Convergence', sans-serif;
+	font-weight: 100;
+}
+.swip{
+	font-size: 30px;
+	display: inline-block;
+	text-align: right;
+	float: right;
+	color: pink;
+}.swip:hover{
+	color: deeppink;
+	cursor: pointer;
+}
+.section{
+	margin-bottom: 30px;
+}

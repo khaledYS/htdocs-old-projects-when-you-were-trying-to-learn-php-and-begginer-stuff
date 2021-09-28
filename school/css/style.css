@@ -1,0 +1,371 @@
+ @media all and (max-width:400px) and (min-width: 300px) {
+     .content{
+         overflow: scroll;
+     }
+
+.left {
+    overflow: visible;
+  height:50% ;
+  width: 35%;
+  position: fixed;
+  position: absolute;
+  z-index: 1;
+  padding-top: 0px;
+  border-radius: 20%;
+  border: 10px solid #73AD21;
+  left: 200px;
+  background-color: darkcyan;
+  top: 95%;
+    
+}
+
+.right {
+  height:50% ;
+  width: 90%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow: visible;
+  padding-top: 20px;
+  border-radius: 20%;
+  border: 10px solid #73AD21;
+  right: px;
+  background-color: darkcyan;
+  top: 300px;
+  border: 10px solid #73AD21;
+}     
+        .footer{
+            background-color: rosybrown;
+            height:100% ;
+            width: 100%;
+            left: 0PX;
+            right: 0px;
+            top: 0px;
+            position: fixed;
+            border:3px solid darkgreen;
+        }
+        
+        .e{
+            color: black;
+            position: absolute;
+            font-size: 70px;
+            left:64%;
+            top:16%;
+            position: fixed;
+            border:20px solid darkred;
+          }
+        #quran{
+            color: greenyellow;
+            font-family:georgia,garamond,serif;font-size:16px;font-style:italic;
+            font-size: 25px;
+            position:absolute;
+            left:1px; 
+            top:-3px;
+            position: fixed;
+        }
+        #quranayat{color:black;
+            font-size: 20px;
+            position: absolute;
+            left: 5px;
+            top: 100px;
+            position: fixed;
+            
+        }
+        #h{
+            color: black;
+            position: absolute;
+            font-size: 70px;
+            left:23.5%;
+            top:16%;
+            position: fixed;
+            border:20px solid darkred;
+        }
+            
+                
+        }
+        
+         .exam{
+            background-color: coral;
+            height:cover ;
+            width: inherit;
+            position: fixed;
+            z-index: ;
+            overflow-y: visible;
+            padding-top: 20px;
+            right: 226px;
+            top:320px;
+			 border-radius: 20%;
+            }
+
+        .homework{
+            background-color: lightyellow;
+            height:95% ;
+            width: 95%;
+            position: absolute;
+            left: 2.5%;
+            top: 3%;
+            border-radius: 20%;
+            overflow-y:auto;
+            overflow-x:hidden;
+            
+        }
+            .CheckBoxHomeworks{
+                left: 200px;
+                
+            }
+            /* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select:none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 7px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+  }
+
+
+        @media screen and (max-width:5000px) and (min-width: 500px) {
+
+
+.left {
+  height:50% ;
+  width: 35%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 20%;
+  border: 10px solid #73AD21;
+  left: 200px;
+  background-color: darkcyan;
+  top: 300px;
+  overflow-y: hidden;
+    
+}
+
+.right {
+  height:50% ;
+  width: 35%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 20%;
+  border: 10px solid #73AD21;
+  right: 200px;
+  background-color: darkcyan;
+  top: 300px;
+  border: 10px solid #73AD21;
+}     
+        .footer{
+            background-color: rosybrown;
+            height:150% ;
+            width: 97.6%;
+            left: 0PX;
+            right: 0px;
+            top: 0px;
+            position: fixed;
+            border:20px solid darkgreen;
+        }
+        
+        .e{
+            color: black;
+            position: absolute;
+            font-size: 70px;
+            left:64%;
+            top:16%;
+            position: fixed;
+            border:20px solid darkred;
+          }
+        #quran{
+            color: greenyellow;
+            font-family:georgia,garamond,serif;font-size:16px;font-style:italic;
+            font-size: 30px;
+            position:absolute;
+            left:230px; 
+            top:20px;
+            position: fixed;
+        }
+        #quranayat{color:black;
+            font-size: 30px;
+            position: absolute;
+            left: 130px;
+            top: 10px;
+            position: fixed;
+            
+        }
+        #h{
+            color: black;
+            position: absolute;
+            font-size: 70px;
+            left:23.5%;
+            top:16%;
+            position: fixed;
+            border:20px solid darkred;
+        }
+        .exam{
+            background-color: coral;
+            height:48% ;
+            width: 33%;
+            position: fixed;
+            z-index: 1;
+            overflow-y: hidden;
+            padding-top: 20px;
+            right: 226px;
+            top:320px;
+            border-radius: 20%;
+            
+                
+        }
+        #imgexam{
+            position: absolute;
+            top: 0px;
+            height: 150%;
+            width: 100%;
+            overflow-y: hidden;
+        }
+        .homework{
+            background-color: lightyellow;
+            height:95% ;
+            width: 95%;
+            position: absolute;
+            left: 2.5%;
+            top: 3%;
+            border-radius: 20%;
+            overflow-y:auto;
+            overflow-x:hidden;
+            
+        }
+            .CheckBoxHomeworks{
+                left: 200px;
+                
+            }
+            /* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select:none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 7px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+  }

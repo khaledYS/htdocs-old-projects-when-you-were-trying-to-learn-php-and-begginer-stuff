@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link href="../../Main/moviepage.css" type="text/css" rel="stylesheet">
+	
+	  
+	  <!--search-->
+    <title id="title"></title>
+	  <link rel="icon" type="image/png" id="image">
+  </head>
+  <body>
+	  	<!-- navbar -->
+	  	  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand " href="../../..">
+		<img src="../../../img/faviconno.png" alt="" width="40" height="40" class="d-inline-block align-top">
+		bee movies</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+			<a class="nav-link active" href="../../..">الأفلام</a>
+        </li>																																																																									
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            أخرى
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" >سيتم إضافتها قريباً</a></li>
+            <li><a class="dropdown-item" >سيتم إضافتها قريباً</a></li>
+            <!--<li><a class="dropdown-item" href="#">Something else here</a></li>-->
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+		  
+		  <!--search-->
+		  		<div class="gcse-search" ></div>
+	  
+	  
+	  <!--the first conttainer and some info about the movie-->
+	  <div class="container theinfo">
+
+	  	<table class="table table-light">
+		  	<tr>
+			  <td colspan="2" class="td namefmovie"><h2 id="moviename"></h2><a id="theyear"></a></td> 	
+			</tr>
+			<tr>
+				<th class="th">اللغة : </th>
+				<td class="td" ><a class="a" id="lang"></a></td>
+			</tr>
+			<tr>
+				<th class="th">البلد : </th>
+				<td class="td" ><a id="country" class="a"></a></td>
+			</tr>
+			<tr>
+				<th class="th">العمر المناسب : </th>
+				<td class="td" ><a class="a" id="age"></a></td>
+			</tr>
+			<tr>
+				<th class="th">هل مترجم : </th>
+				<td class="td" ><a class="a" id="trans"></a></td>
+			</tr>
+			<tr>
+				<th class="th">النوع</th>
+				<td class="td"><a class="a" id="typea"></a><a class="a" id="typeb"></a><a class="a" id="typec"></a><a class="a" id="typed"></a></td>
+			</tr>
+		  </table>
+		  <img class="img img-fluid" id="movieimg" src="">
+	  </div>
+	  
+	  
+	  <!--the second container and it contains the story of the movie-->
+	  <div class="container thestory">
+		  <h1>القصة</h1>
+		  <hr><br>
+		  <h3 id="thestory"></h3>
+	  </div>
+	  
+	  
+	  <!--the trailer-->
+	  <div class="container trailer">
+	  	<div class="container trailercapt"><h1 class="trailercapten">the trailer</h1><h1 class="trailercaptar">إعلان الفيلم</h1></div><hr>
+		  <br>
+		  <br>
+		  <!--but the trailer here-->
+		  <iframe class="video" width="560" height="315" id="videotrailer" src="https://www.youtube-nocookie.com/embed/xu8O8wYN-Ik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div>
+	  
+	  
+	  <!--the Actors-->
+	  <div class="container Actors">
+	  	  <div class="container actorpresent"><h1 class="actorpresenten">the Main Actors</h1><h1 class="actorpresentar">الممثلين الرئيسين</h1></div><hr>
+		  <div class="container-fluid actorsdiv">
+		  	<div class=" Actordiv">
+				<!--actor img down me here-->
+				<div class="actorimgdiv"><img class="actorimg" id="actorimga" src="../../Main/needed-photos/unkown-person.jfif"></div>
+				<div class="actorcapt"><h2 class="actorname" id="actornamea"></h2><h4 id="actorjoba" class="actorjob"></h4></div>
+			  </div>
+			  
+			  <div class=" Actordiv">
+				  <!--actor img down me here-->
+				<div class="actorimgdiv"><img class="actorimg" id="actorimgb" src="https://cdn.animenewsnetwork.com/thumbnails/crop150x150gH7/encyc/P90206-3280428979.1559114220.jpg"></div>
+				<div class="actorcapt"><h2 class="actorname" id="actornameb"></h2><h4 id="actorjobb" class="actorjob"></h4></div>
+			  </div>
+			  
+			  <div class=" Actordiv">
+				  <!--actor img down me here-->
+				<div class="actorimgdiv"><img class="actorimg" id="actorimgc" src="../../Main/needed-photos/unkown-person.jfif"></div>
+				<div class="actorcapt"><h2 class="actorname" id="actornamec"></h2><h4 id="actorjobc" class="actorjob"></h4></div>
+			  </div>
+			  
+			  <div class=" Actordiv">
+				  <!--actor img down me here-->
+				<div class="actorimgdiv"><img class="actorimg" id="actorimgd" src="https://m.media-amazon.com/images/M/MV5BNGFlZWIzMTQtZDkxMS00YTM0LTg4Y2QtMTgxN2MyMzUzMGUzXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_UY1200_CR120,0,630,1200_AL_.jpg"></div>
+				<div class="actorcapt"><h2 class="actorname" id="actornamed"></h2><h4 id="actorjobd" class="actorjob"></h4></div>
+			  </div>
+			  
+			  <div class=" Actordiv">
+				  <!--actor img down me here-->
+				<div class="actorimgdiv"><img class="actorimg" id="actorimge" src="https://cdn.myanimelist.net/images/voiceactors/1/54010.jpg"></div>
+				<div class="actorcapt"><h2 class="actorname" id="actornamee"></h2><h4 id="actorjobe" class="actorjob"></h4></div>
+			  </div>
+			  
+			  <div class=" Actordiv">
+				  <!--actor img down me here-->
+				<div class="actorimgdiv"><img class="actorimg" id="actorimgf" src="../../Main/needed-photos/unkown-person.jfif"></div>
+				<div class="actorcapt"><h2 class="actorname" id="actornamef"></h2><h4 id="actorjobf" class="actorjob"></h4></div>
+			  </div>
+		  </div>
+	  </div>
+	  
+	  <!--the hardest one , here should have the movie ti watch and download-->
+	  <div class="container wad">
+		  <h1 class="videocapt">شاهد الفيلم</h1>
+<iframe class="video" width="640" height="360" id="videomovie" frameborder="0" src="https://mega.nz/embed/vds3QSaI#maom3e3ht8BHqdBr0saI8cGC2rPajOn3vtXwu6GMAcs" allowfullscreen ></iframe><br><br>
+		  <h1>أو حمله من هنا</h1><hr>
+		 <table class="table table-secondary">
+			  <tr>
+			  	<th>السيرفر</th>
+			  	<th>الجودة</th>
+			  	<th>رابط التحميل</th>
+			 </tr>
+			 <tr>
+			 	<td>mega.zn + Egybe$t</td>
+			 	<td>1080p</td>
+				 
+				 <!-- put url under here -->
+			 	<td><a class="btn btn-success" id="downloadlink" href="https://mega.nz/file/vds3QSaI#maom3e3ht8BHqdBr0saI8cGC2rPajOn3vtXwu6GMAcs"><i class="fas fa-file-download"></i> رابط التحميل   </a></td>
+			 </tr>
+		  </table>
+	  </div>
+	  
+
+
+	  	  
+	  <!-- now the ads div -->
+	  <div class="container wad">
+	  	<h1 class="videocapt">إعلانات <br> Ads</h1>
+		  <div class="contains all the ads">
+			  <div class="1 ad"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- deadpool 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8092226629274392"
+     data-ad-slot="2970021929"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+			  <div class="2 ad">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fdf -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8092226629274392"
+     data-ad-slot="9765918037"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+			  <div class="3 ad"></div>
+			  <div class="4 ad"></div>
+			  <div class="5 ad"></div>
+			  <div class="6 ad"></div>
+			  <div class="7 ad"></div>
+			  <div class="8 ad"></div>
+			  <div class="9 ad"></div>
+			  <div class="10 ad"></div>
+		  </div>
+	  </div>
+	 
+	  
+	
+	  
+	  <!--movie we guess it for u-->
+	  <div class="container iframe">
+	  	  <h1>أفلام نقترحها لك</h1>
+		  <iframe class="theiframe" width="100%" src="../../Main/presented-movies/index.html" ></iframe>
+	  </div>
+	  
+	  <div>
+	  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	    <script async src="https://cse.google.com/cse.js?cx=bea264578c654a8fb"></script>
+		  <script src="https://kit.fontawesome.com/13854f9d20.js"></script>
+		  <script src="js.js"></script>
+	  </div>
+  </body>
+</html>
